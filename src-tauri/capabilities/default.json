@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-window",
+  "description": "Local application window; native filesystem access stays in validated Rust commands.",
+  "windows": ["main"],
+  "permissions": ["core:default", "dialog:allow-open", "dialog:allow-message", "autostart:allow-is-enabled", "autostart:allow-enable", "autostart:allow-disable"]
+}

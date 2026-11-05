@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Aegis: avvia desktop (Tauri)",
+      "type": "shell",
+      "command": "npm.cmd",
+      "args": ["run", "tauri", "--", "dev"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Aegis: crea installer NSIS",
+      "type": "shell",
+      "command": "npm.cmd",
+      "args": ["run", "tauri", "--", "build", "--bundles", "nsis"],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

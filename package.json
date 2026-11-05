@@ -1,0 +1,26 @@
+{
+    "name":  "static-guard-desktop",
+    "version":  "0.1.0",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "vite --host 127.0.0.1 --port 1420 --strictPort",
+                    "build":  "vite build",
+                    "preview":  "vite preview",
+                    "tauri":  "node installer/tauri-cli.mjs"
+                },
+    "dependencies":  {
+                         "react":  "19.3.1",
+                         "react-dom":  "19.3.1",
+                         "lucide-react":  "1.67.0",
+                         "@tauri-apps/api":  "^2.0.0",
+                         "@tauri-apps/plugin-dialog":  "^2.0.0",
+                         "@tauri-apps/plugin-autostart":  "^2.0.0"
+                     },
+    "devDependencies":  {
+                            "vite":  "8.3.5",
+                            "@tauri-apps/cli":  "^2.0.0",
+                            "tailwindcss":  "4.3.4",
+                            "@tailwindcss/vite":  "4.3.4"
+                        }
+}

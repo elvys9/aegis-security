@@ -1,0 +1,13 @@
+/build/
+/.vs/
+**/node_modules/
+/.tools/
+/dist/
+/src-tauri/target/
+/service-daemon/target/
+/src-tauri/gen/
+/archive/
+/.vscode/settings.json
+.env
+.env.*
+!.env.example
